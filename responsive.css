@@ -1,57 +1,55 @@
 @media (max-width: 320px) {
-    /* Tambahkan CSS untuk lesson */
-    .header{
-      width: 100%;
-    
-      margin-bottom: 50px;
-    }
-    body{
-        width: 100%;
-        height: 100%;
-    }
-    .main img{
-      width: 320px;
-      height: 320px;
-      
-    }
-    p{
-      width: 320px;
-    }
-    .main .happy{
-      height: 320px;
-      width: 320px;
-    }
-    .main h1{
-      padding-right: 170px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+  /* Tambahkan CSS untuk lesson */
+  .header{
+    width: auto;
+  
+    margin-bottom: 50px;
   }
-  @media (max-width: 425px){
-    .header{
-      width: 425px;
-    
-      margin-bottom: 50px;
-    }
-    body{
-        width: 100%;
-        height: 100%;
-    }
-    .main img{
-      width: 425px;
-      height: 425px;
+  body{
+      width: auto;
       
-    }
-    p{
-      width: 425px;
-    }
-    .main .happy{
-      height: 425px;
-      width: 425px;
-    }
-    .main h1{
-      padding-right: 70px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-    }
   }
+  .main img{
+    width: auto;
+    height: auto;
+    
+  }
+
+  .main .happy{
+    height: auto;
+    width: auto;
+  }
+  .main h1{
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media (max-width: 425px){
+  .header{
+    width: auto;
+  
+    margin-bottom: 50px;
+  }
+  body{
+      width: auto;
+      height: auto;
+  }
+  .main img{
+    width: 100%;
+    
+
+  }
+  p{
+   
+  }
+  .main .happy{
+    height: 425px;
+    width: auto;
+  }
+  .main h1{
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
