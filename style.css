@@ -5,6 +5,9 @@
     padding: 0;
     
 }
+audio{
+opacity: 0%;
+}
 /*Setting header Biar bagus disini*/
 .header{
   margin: 0 auto;
